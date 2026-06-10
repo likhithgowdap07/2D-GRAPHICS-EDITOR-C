@@ -1,0 +1,44 @@
+Q1. What is the purpose of HEIGHT and WIDTH?
+A. They define the size of the canvas, which is 20 rows and 40 columns.
+
+Q2. What is stored in canvas[HEIGHT][WIDTH]?
+A. It stores the characters displayed on the screen. _ means empty space, and * means a drawn shape.
+
+Q3. What does the Shape structure store?
+A. It stores the shape’s ID, type, position, size values, and whether the shape is active.
+
+Q4. What does initializeCanvas() do?
+A. It fills the entire canvas with _ characters.
+
+Q5. What does drawLine() do?
+A. It draws a horizontal line on one row from startCol to endCol.
+
+Q6. What does drawRectangle() do?
+A. It draws only the border of a rectangle, not a filled one.
+
+Q7. What does drawTriangle() do?
+A. It draws a right triangle using * characters.
+
+Q8. What does drawCircle() do?
+A. It draws a filled circle by checking whether each point lies inside the radius.
+
+Q9. Why is redrawCanvas() needed?
+A. It clears the canvas and draws all active shapes again after adding, deleting, or modifying a shape.
+
+Q10. What happens when you add a shape?
+A. The program asks for the shape type and its values, stores it in the array, and redraws the canvas.
+
+Q11. What happens when you delete a shape?
+A. The program asks for the shape ID, marks it inactive, and redraws the canvas.
+
+Q12. What happens when you modify a shape?
+A. The program asks for the shape ID, updates its values, and redraws the canvas.
+
+Q13. What does listShapes() show?
+A. It prints the IDs and types of all active shapes.
+
+Q14. What does option 6 do in the menu?
+A. It clears the canvas and removes all stored shapes by setting shapeCount = 0.
+
+Q15. What does option 7 do?
+A. It exits the program.
